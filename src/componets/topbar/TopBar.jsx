@@ -1,7 +1,7 @@
 import React from 'react';
 import './topbar.css'
 import {NotificationsNone , Language , Settings} from '@mui/icons-material';
-import avatarImage from  '/react-admin-panel/src/assets/avatar.jpg';
+
 
 export default function TopBar() {
   return (
@@ -21,7 +21,7 @@ export default function TopBar() {
             <div className="topbariconContainer">
             <Settings/>
             </div>
-            <img src={avatarImage} alt="Avatar" className="topAvatar" />
+            <img src="assets/avatar.jpg" alt="Avatar" className="topAvatar" />
           </div>
         </div>
     </div>
